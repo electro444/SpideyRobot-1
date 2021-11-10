@@ -81,31 +81,26 @@ PIGASUS_UPDATES = "https://t.me/PigasusUpdates"
 PIGASUS_SUPPORT = "https://t.me/PigasusSupport"
 
 PM_START_TEXT = """
-Hᴇʟʟᴏ I'm Sᴘɪᴅᴇʏ Rᴏʙᴏᴛ
-✘ I ᴀᴍ ᴍᴜʟᴛɪ ᴛᴀʟᴇɴᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴏsᴍ ғᴇᴀᴛᴜʀᴇs[.](https://telegra.ph/file/cbaf96a49d33e574e002a.jpg)
-✘ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
-✘ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [Mᴀsᴛᴇʀ](t.me/DreamerNo1) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ ᴀɴᴅ [Aᴘᴘᴇᴀʟ](https://t.me/PigasusSupport) ʜᴇʀᴇ.
-✘ ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ʜᴇʟᴘ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴇᴀᴛᴜʀᴇs.
-  Pᴏᴡᴇʀᴇᴅ ʙʏ [DC Oᴡɴᴇʀ](t.me/DisneyCinemas) [Wɪᴛʜ Pɪɢᴀsᴜs](t.me/PigasusUpdates)
+Hᴇʟʟᴏ I'm тнυи∂єя ριкα¢нυ
+• I ᴀᴍ ᴍᴜʟᴛɪ ᴛᴀʟᴇɴᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴏsᴍ ғᴇᴀᴛᴜʀᴇs
+•  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
+• My [Mᴀsᴛᴇʀ](https://t.me/ELECTRO_444) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ
+• ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ /help ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴇᴀᴛᴜʀᴇs)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="☑️ Aᴅᴅ Sᴘɪᴅᴇʏ To Your Group", url="t.me/SpideyRobot?startgroup=true")
+            text=" ➕ Aᴅᴅ тнυи∂єя ριкα¢нυ To Your Group", url="https://t.me/THUNDER_PIKACHU_BOT?startgroup=true")
     ],
     [
         InlineKeyboardButton(
-            text="🔘 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/PigasusSupport"),
+            text="🔘 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sctbotssupport"),
          InlineKeyboardButton(
-            text="🔘 Uᴘᴅᴀᴛᴇs", url="https://t.me/PigasusUpdates"),
+            text="🔘 Uᴘᴅᴀᴛᴇs", url="https://t.me/sctbots"),
     ],
-    [  
-        InlineKeyboardButton(text="🚀 Dɪsɴᴇʏ Oʀɢɪɴᴀʟs", url="https://t.me/joinchat/YqHGgoF9kf1mMjU1"),  
-        InlineKeyboardButton(text="🚀 Dɪsɴᴇʏ Cɪɴᴇᴍᴀs", url="https://t.me/DisneyCinemas"),
-    ],
+    
      [
-        InlineKeyboardButton(text="🚨 Aʙᴏᴜᴛ", callback_data="masha_"),
         InlineKeyboardButton(text="🚨 Hᴇʟᴘ", callback_data="help_back"),
     ],
 ]
@@ -113,7 +108,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Spidey comes with many special features in it
+тнυи∂єя ριкα¢нυ comes with many special features in it
 >> Here Are The List Commands Used In Group And Also In PM
 >> All commands can either be used with* `/` *or* `!`.
 >> If you facing any issue or find any bugs in any command then you can report it in @PigasusSupport* [.](https://telegra.ph/file/eff39de2aae50fab7af3e.mp4)
