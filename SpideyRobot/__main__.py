@@ -74,11 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-SPIDEY_IMG = "https://telegra.ph/file/3f2d1385e2d7070596c39.jpg"
+SPIDEY_IMG = "https://telegra.ph/file/cad9624a26f5dfcc6e248.jpg"
 
-PIGASUS_UPDATES = "https://t.me/PigasusUpdates"
+PIGASUS_UPDATES = "https://t.me/sctbots"
 
-PIGASUS_SUPPORT = "https://t.me/PigasusSupport"
+PIGASUS_SUPPORT = "https://t.me/sctbotssupport"
 
 PM_START_TEXT = """
 Hᴇʟʟᴏ I'm тнυи∂єя ριкα¢нυ
@@ -234,13 +234,13 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://telegram.dog/PigasusSupport")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sctbotssupport")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/PigasusUpdates")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/sctbots")
                   ],
                   [
-                  InlineKeyboardButton(text="Sᴘɪᴅᴇʏ Pʟᴀʏᴇʀ", url="https://t.me/SpideyPlayerRobot")
+                  InlineKeyboardButton(text="Sᴘɪᴅᴇʏ Pʟᴀʏᴇʀ", url="https://t.me/EOMUSICBOT")
                   ]
                 ]
             ),
