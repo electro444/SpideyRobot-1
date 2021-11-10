@@ -111,7 +111,7 @@ HELP_STRINGS = """
 тнυи∂єя ριкα¢нυ comes with many special features in it
 >> Here Are The List Commands Used In Group And Also In PM
 >> All commands can either be used with* `/` *or* `!`.
->> If you facing any issue or find any bugs in any command then you can report it in @PigasusSupport* [.](https://telegra.ph/file/eff39de2aae50fab7af3e.mp4)
+>> If you facing any issue or find any bugs in any command then you can report it in @sctbotssupport*
 """
 
 
