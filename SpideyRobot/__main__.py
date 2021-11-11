@@ -81,7 +81,7 @@ PIGASUS_UPDATES = "https://t.me/sctbots"
 PIGASUS_SUPPORT = "https://t.me/sctbotssupport"
 
 PM_START_TEXT = """
-Hᴇʟʟᴏ I'm тнυи∂єя ριкα¢нυ
+Hᴇʟʟᴏ I'm тнυnder pιĸacнυ
 • I ᴀᴍ ᴍᴜʟᴛɪ ᴛᴀʟᴇɴᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴏsᴍ ғᴇᴀᴛᴜʀᴇs
 •  ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀᴅᴍɪɴ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ.
 • My [Mᴀsᴛᴇʀ](https://t.me/ELECTRO_444) ғᴏʀ ᴀɴʏ ǫᴜᴇʀʏ
@@ -91,13 +91,13 @@ Hᴇʟʟᴏ I'm тнυи∂єя ριкα¢нυ
 buttons = [
     [
         InlineKeyboardButton(
-            text=" ➕ Aᴅᴅ тнυи∂єя ριкα¢нυ To Your Group", url="https://t.me/THUNDER_PIKACHU_BOT?startgroup=true")
+            text=" ➕ Aᴅᴅ тнυnder pιĸacнυ To Your Group", url="https://t.me/THUNDER_PIKACHU_BOT?startgroup=true")
     ],
     [
         InlineKeyboardButton(
-            text="🔘 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sctbotssupport"),
+            text="🔘 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/cotroonbotssupport"),
          InlineKeyboardButton(
-            text="🔘 Uᴘᴅᴀᴛᴇs", url="https://t.me/sctbots"),
+            text="🔘 Uᴘᴅᴀᴛᴇs", url="https://t.me/cotroonbotsupdates"),
     ],
     
      [
@@ -108,10 +108,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-тнυи∂єя ριкα¢нυ comes with many special features in it
+тнυnder pιĸacнυ comes with many special features in it
 >> Here Are The List Commands Used In Group And Also In PM
 >> All commands can either be used with* `/` *or* `!`.
->> If you facing any issue or find any bugs in any command then you can report it in @sctbotssupport*
+>> If you facing any issue or find any bugs in any command then you can report it in @cotroonbotssupport*
 """
 
 
@@ -234,14 +234,11 @@ def start(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sctbotssupport")
+                  InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/cotroonbotssupport")
                   ],
                   [
-                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/sctbots")
+                  InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs", url="https://t.me/cotroonbotsupdates")
                   ],
-                  [
-                  InlineKeyboardButton(text="Sᴘɪᴅᴇʏ Pʟᴀʏᴇʀ", url="https://t.me/EOMUSICBOT")
-                  ]
                 ]
             ),
         )
@@ -409,8 +406,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Spidey*
-                 \nHere is the [Source Code](https://github.com/DCOwnerNo1/SpideyRobot) .""",
+            text=""" Hi..🤗 I'm *тнυnder pιĸacнυ*
+                 \nHere is the [Source Code](Pravite) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
